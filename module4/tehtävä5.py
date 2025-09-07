@@ -17,7 +17,3 @@ print(f"Sum of the dice: {summa}")
 
 
 
-
-
-
-
