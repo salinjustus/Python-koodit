@@ -1,15 +1,13 @@
 import random
-def roll_dice(maksimi):
-    return random.randint(1,maksimi)
+def roll_dice():
+    return random.randint(1, 6)
 heitot = []
-maksimi=int(input())
 while True:
-    heitto=roll_dice(maksimi)
+    heitto=roll_dice()
     print(heitto)
     heitot.append(heitto)
-    if heitto == maksimi:
+    if heitto == 6:
         break
-
 
 
 
