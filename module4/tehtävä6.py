@@ -13,16 +13,3 @@ toleranssi = 0.01
 if abs(likiarvo-math.pi)<toleranssi:
     print("Your solution correctly calculates an approximation of pi!")
     print(likiarvo)
-
-
-
-
-
-
-
-
-
-
-
-
-
